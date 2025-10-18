@@ -1,0 +1,26 @@
+{
+  "name": "chat2pdf",
+  "version": "1.0.0",
+  "description": "A simple Node.js + Express application that converts any ChatGPT shared chat link into a neatly formatted PDF file. This monolithic version serves as the baseline for later benchmarking against a distributed, microservice-based design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SambitAmanta/chat2pdf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SambitAmanta/chat2pdf/issues"
+  },
+  "homepage": "https://github.com/SambitAmanta/chat2pdf#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
