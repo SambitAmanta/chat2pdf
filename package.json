@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/SambitAmanta/chat2pdf#readme",
   "dependencies": {
+    "cheerio": "^1.1.2",
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "puppeteer": "^24.25.0"
   }
 }
